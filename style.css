@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    font-family: "Noto Sans", sans-serif;
+    padding: 0;
+    margin: 0;
+   
+}
+
+body {
+    background-color: #000;
+}
+.main {
+    background-image: url("bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat ;
+    background-size: max(1500px,100vm);
+    height: 70vh;
+    position: relative;
+}
+.main .box {
+    height: 70vh;
+    width: 100%;
+    opacity: 0.44;
+    background-color: #000;
+    position: absolute;
+    top: 0;
+
+}
+
+nav {
+    justify-content: space-between;
+    display: flex;
+    max-width: 80vw;
+    margin: auto;
+    align-items: center;
+    height: 62px;
+}
+nav img {
+    color: red;
+    width: 114px;
+    position: relative;
+    z-index: 10;
+}
+nav button {
+    position: relative;
+    z-index: 10; 
+}
+.hero {
+    height: 380px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 23px;
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    padding: 0 30px;
+   
+    
+}
+
+.hero .heading{
+    font-weight: 900;
+    font-size: 40px;
+    text-align: center;
+
+}
+
+.hero:nth-child(2){
+   font-weight: 400;
+   font-size: 24px;
+   text-align: center;
+}
+.hero:nth-child(3){
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+ }
+ .seperation {
+    height: 7px;
+    background-color: rgb(46, 44, 44);
+ }
+ .btn {
+    padding: 3px 8px;
+    font-weight: 400px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: rgba(255, 254, 254, 0);
+ }
+ .btn-red {
+    font-weight: 400;
+    background-color: red;
+    color: white;
+    padding: 3px 24px;
+    font-size: 20px;
+    border-radius: 4px;
+}
+
+.btn-red-sn {
+    background-color: red;
+    color: white;
+}  
+
+.main input {
+    padding: 7px 101px 8px 14px;
+    font-size: 12px;
+    color: white;
+    border-radius: 4px;
+    border: 1px solid rgba(23, 23, 23, 0.7);
+    background-color: rgba(131, 107, 107, 0.175);
+}
+
+ 
+.hero-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.first {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+}
+.secimg{
+    position: relative;
+}
+.secimg img{
+    width: 30vw;
+    position: relative;
+    z-index: 10;
+
+}
+.secimg video{
+    position: absolute;
+    top: 51px;
+    right: 0;
+    height: 200px;
+    width: 350px;
+}
+section.first > div {
+    display: flex;
+    flex-direction: column;
+}
+section.first > div :nth-child(1) {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+section.first > div :nth-child(2) {
+    font-size: 24px;
+    font-weight: bolder;
+    
+}
+
+.faq h2 {
+    text-align: center;
+    font-size: 42px;
+}
+
+.faq {
+    background-color: #000;
+    color: white;
+    padding: 32px;
+}
+.faqbox {
+    transition: all 1s ease-out;
+    font-size: 25px;
+    display: flex;
+    background-color: rgba(62, 61, 61, 0.767);
+    padding: 20px;
+    max-width: 60vw;
+    margin: 10px auto;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.faqbox:hover {
+    background-color:#414141;
+}
+.faqbox svg {
+    filter: invert(1);
+}
+.footer-item {
+    gap: 23px;
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+footer {
+    color: white;
+    margin: auto;
+    max-width: 60vw;
+    padding: 34px;
+}
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: white;
+}
+
+.footer a {
+    font-size: 14px;
+    text-decoration: none;
+    color: white;   
+}
+footer .questions {
+    padding: 34px 0 ;
+}
